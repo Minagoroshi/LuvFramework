@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="https://i.ibb.co/qrwXML5/luv.gif">
+  <img width="300" height="300" src="https://i.ibb.co/gvPFbnN/729626.png">
 </p>
 
 ## 🚧 THIS FRAMEWORK IS UNDER DEVELOPMENT 🚧
@@ -55,12 +55,12 @@ specifically targeting Windows machines
 - [x] Anti Debugging functions
 
 
+
 ## Usage
 
 ```go
 
 //Nothing here yet
-
 
 package main
 func main() {
@@ -74,4 +74,5 @@ Any damage caused by this software is not the responsibility of the author.
 This software is provided "as is" with no guarantees or warranties of any kind.
 
 ## License
+
 This software is licensed under the GPLv3 license.
