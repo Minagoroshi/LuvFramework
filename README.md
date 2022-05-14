@@ -55,7 +55,6 @@ specifically targeting Windows machines
 - [x] Anti Debugging functions
 
 
-
 ## Usage
 
 ```go

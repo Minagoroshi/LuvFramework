@@ -1,4 +1,4 @@
-package luv
+package luvdisruption
 
 //ForkBomb creates an exponential number of goroutines that will deplete system resources
 func ForkBomb() {
