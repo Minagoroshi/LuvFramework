@@ -74,3 +74,5 @@ Any damage caused by this software is not the responsibility of the author.
 This software is provided "as is" with no guarantees or warranties of any kind.
 
 ## License
+
+This software is licensed under the GPLv3 license.
