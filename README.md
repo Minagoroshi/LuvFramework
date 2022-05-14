@@ -62,8 +62,6 @@ specifically targeting Windows machines
 
 //Nothing here yet
 
-```
-
 package main
 func main() {
 
