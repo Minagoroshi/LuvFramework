@@ -1,7 +1,7 @@
 package luvrecon
 
 import (
-	. "LuvFramework/utils"
+	. "github.com/Minagoroshi/LuvFramework/utils"
 	"os/user"
 	"strings"
 )

@@ -1,7 +1,7 @@
 package luvrecon
 
 import (
-	luvutils "LuvFramework/utils"
+	. "github.com/Minagoroshi/LuvFramework/utils"
 	"golang.org/x/sys/windows/registry"
 	"strings"
 )
@@ -24,7 +24,7 @@ func MachineGuid() (string, error) {
 //GpuName returns the GPU info for the machine
 func GpuName() ([]string, error) {
 	gpuName := []string{}
-	out, err := luvutils.CmdOut("wmic path win32_VideoController get name")
+	out, err := CmdOut("wmic path win32_VideoController get name")
 	if err != nil {
 		return nil, err
 	}
@@ -32,7 +32,7 @@ func GpuName() ([]string, error) {
 	lines := strings.Split(out, "\n")
 
 	for _, line := range lines {
-		if !luvutils.ArrayContains(line, []string{"Name"}) {
+		if !ArrayContains(line, []string{"Name"}) {
 			gpuName = append(gpuName, line)
 		}
 	}

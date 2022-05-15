@@ -1,8 +1,8 @@
 package luvevasion
 
 import (
-	. "LuvFramework/utils"
 	"fmt"
+	. "github.com/Minagoroshi/LuvFramework/utils"
 	"time"
 )
 
