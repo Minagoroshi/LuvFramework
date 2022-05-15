@@ -62,9 +62,9 @@ Luv Framework is a framework for developing malware and pen-testing software to 
 - Wipe (Wipes the filesystem of the provided path)
 - ClearLogs (Clears windows logs)
 - Shutdown (Shuts down the machine)
-- SluiBypass (Uac bypass using slui.exe)
+- SluiBypass (UAC bypass using slui.exe)
 - ComputerDefaults (UAC bypass using computerdefaults.exe)
-- SdlctControl (UAC bypass using sdlct.exe)
+- SdcltControl (UAC bypass using sdclt.exe)
 - FodHelper (UAC bypass using fodhelper.exe)
 - TryEscalate (Attempts to escalate privileges, returns true if successful)
 
