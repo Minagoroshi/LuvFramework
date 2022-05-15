@@ -43,11 +43,16 @@ specifically targeting Windows machines
 
 ### Recon
 - GetDrives (Returns all drives on the machine)
+- CheckRoot (Checks if the current user is root)
+- GetUsers (Returns a list of users on the machine)
+- ListFiles (Returns a list of files to the provided path)
 
 ### Exploitation
 - ForkBomb (Exponential growth of goroutines to deplete system resources)
 - NetworkDisconnect (Disconnects network connections)
-- Wipe (Wipes the filesystem of the provided path) 
+- Wipe (Wipes the filesystem of the provided path)
+- ClearLogs (Clears windows logs)
+- Shutdown (Shuts down the machine)
 
 ### Persistence
 - [x] Persistence Functions (TODO)
