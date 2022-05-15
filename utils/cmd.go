@@ -17,6 +17,8 @@ func CmdOut(command string) (string, error) {
 
 //The AllocMem function is used to allocate memory
 func AllocMem(size int) ([]byte, error) {
+	//Add a buffer to the size
+	size += 1024
 	return make([]byte, size), nil
 }
 

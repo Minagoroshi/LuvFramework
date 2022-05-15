@@ -2,10 +2,23 @@ package luvrecon
 
 import (
 	. "LuvFramework/utils"
+	"os/user"
 	"strings"
 )
 
-func users() ([]string, error) {
+// CheckRoot Checks if the current user is root
+func CheckRoot() bool {
+	usr, err := user.Current()
+	if err != nil {
+		panic(err)
+	}
+	if usr.Username != "root" {
+		return false
+	}
+	return true
+}
+
+func GetUsers() ([]string, error) {
 	clear := []string{}
 	result, err := CmdOut("net user")
 	if err != nil {
