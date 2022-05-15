@@ -6,10 +6,9 @@ import (
 	"time"
 )
 
-//The Hop Bypass Evasion function bypasses anti-virus software by allocating fake memory and hopping between multiple memory locations.
-
 var i int64 = 0
 
+//The HopBypass Evasion function bypasses anti-virus software by allocating fake memory and hopping between multiple memory locations using function calls.
 func HopBypass() ([]byte, error) {
 	var mem []byte
 	var err error
@@ -30,6 +29,7 @@ func keepMem(mem []byte, duration int) {
 	go func() {
 		for i := 0; i < duration; i++ {
 			time.Sleep(time.Second * 1)
+			//Keep accessing the memory to keep it alive
 			mem = append(mem, []byte("\x00")...)
 			//Send a message to the semaphore channel
 		}

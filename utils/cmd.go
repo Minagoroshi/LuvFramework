@@ -1,6 +1,8 @@
 package luvutils
 
-import "os/exec"
+import (
+	"os/exec"
+)
 
 //The CmdOut function is used to execute a command
 func CmdOut(command string) (string, error) {
@@ -9,6 +11,7 @@ func CmdOut(command string) (string, error) {
 	if err != nil {
 		return "", err
 	}
+
 	return string(output), nil
 }
 

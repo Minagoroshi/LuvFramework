@@ -37,36 +37,24 @@ specifically targeting Windows machines
 
 ## Documentation
 ### Evasion
-- [x] Evasion functions
+- HopBypass (Manipulates machine memory to evade AVs)
 
 ### Recon
-- [x] Reconnaissance Functions
+- GetDrives (Returns all drives on the machine)
 
 ### Disruption
-- [x] Disruptive functions
+- ForkBomb (Exponential growth of goroutines to deplete system resources)
+- NetworkDisconnect (Disconnects network connections)
 
 ### Anti Sandbox
-- [x] Anti Sandbox functions
+- [x] Anti Sandbox functions (TODO)
 
 ### Anti Memory
-- [x] Anti Memory Inspection functions
+- [x] Anti Memory Inspection functions (TODO)
 
 ### Anti Debugging
-- [x] Anti Debugging functions
+- [x] Anti Debugging functions (TODO)
 
-
-
-## Usage
-
-```go
-
-//Nothing here yet
-
-package main
-func main() {
-
-}
-```
 
 ## Disclaimer
 This software is distributed in the hope that it will be useful, the usage of this software is at your own risk.
