@@ -68,7 +68,7 @@ specifically targeting Windows machines
 
 ## Contributing
 Any contributions are welcome! Feel free to fork and submit pull requests.
-When reporting bugs, please make sure to follow our format and [Guidelines](CONTRIBUTING.md)
+Please make sure to follow our [Guidelines](CONTRIBUTING.md)
 
 ## Disclaimer
 This software is distributed in the hope that it will be useful, the usage of this software is at your own risk.
