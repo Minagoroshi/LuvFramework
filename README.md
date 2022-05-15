@@ -5,8 +5,7 @@
 ## 🚧 THIS FRAMEWORK IS UNDER DEVELOPMENT 🚧
 
 # Luv Framework
-Luv Framework is a malware framework that is designed to be used by malware researchers
-specifically targeting Windows machines
+Luv Framework is a framework for developing pen-testing software to be used by researchers specifically targeting Windows machines
 
 
 
@@ -22,6 +21,10 @@ specifically targeting Windows machines
   - [Anti-Sandbox](#anti-sandbox)
   - [Anti-Memory](#anti-memory)
   - [Anti-Debugging](#anti-debugging)
+  - [Wireless](#wireless)
+    - [Credential Stuffing](#credential-stuffing)
+  - [Toolchain](#toolchain)
+- [Upcoming Features](#upcoming-features)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
 - [License](#license)
@@ -66,16 +69,33 @@ specifically targeting Windows machines
 - TryEscalate (Attempts to escalate privileges, returns true if successful)
 
 ### Persistence
-- [x] Persistence Functions (TODO)
+- [ ] Persistence Functions (TODO)
 
 ### Anti Sandbox
-- [x] Anti Sandbox functions (TODO)
+- [ ] Anti Sandbox functions (TODO)
 
 ### Anti Memory
-- [x] Anti Memory Inspection functions (TODO)
+- [ ] Anti Memory Inspection functions (TODO)
 
 ### Anti Debugging
-- [x] Anti Debugging functions (TODO)
+- [ ] Anti Debugging functions (TODO)
+
+### Wireless
+Various functions to assist in penetration testing of wireless networks
+
+#### Credential Stuffing
+ - [ ] Worker (TODO)
+
+## ToolChain
+- [ ] ToolChain (TODO)
+
+## Upcoming Features
+- [ ] Persistence Functions (TODO)
+- [ ] Anti Sandbox functions (TODO)
+- [ ] Anti Memory Inspection functions (TODO)
+- [ ] Anti Debugging functions (TODO)
+- [ ] Wireless functions (TODO)
+- [ ] Toolchain  (TODO)
 
 ## Contributing
 Any contributions are welcome! Feel free to fork and submit pull requests.
