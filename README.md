@@ -18,6 +18,7 @@ specifically targeting Windows machines
   - [Evasion](#evasion)
   - [Recon](#recon)
   - [Disruption](#disruption)
+  - [Persistence](#persistence)
   - [Anti-Sandbox](#anti-sandbox)
   - [Anti-Memory](#anti-memory)
   - [Anti-Debugging](#anti-debugging)
@@ -45,6 +46,9 @@ specifically targeting Windows machines
 ### Disruption
 - ForkBomb (Exponential growth of goroutines to deplete system resources)
 - NetworkDisconnect (Disconnects network connections)
+
+## Persistence
+- [x] Persistence Functions (TODO)
 
 ### Anti Sandbox
 - [x] Anti Sandbox functions (TODO)
