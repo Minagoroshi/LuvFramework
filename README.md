@@ -5,7 +5,7 @@
 ## 🚧 THIS FRAMEWORK IS UNDER DEVELOPMENT 🚧
 
 # Luv Framework
-Luv Framework is a malware framework that is designed to be used by malware researchers
+Luv Framework is a framework for developing pen-testing software to be used by researchers
 specifically targeting Windows machines
 
 
