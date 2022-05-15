@@ -34,3 +34,21 @@ func ListFiles(dir string) ([]string, error) {
 	}
 	return fileNames, nil
 }
+
+//GetFileData returns the data of a file as a byte slice
+func GetFileData(file string) ([]byte, error) {
+	data, err := ioutil.ReadFile(file)
+	if err != nil {
+		return nil, err
+	}
+	return data, nil
+}
+
+//GetFileSize returns the size of a file in bytes
+func GetFileSize(file string) (int64, error) {
+	fileInfo, err := os.Stat(file)
+	if err != nil {
+		return 0, err
+	}
+	return fileInfo.Size(), nil
+}

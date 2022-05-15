@@ -32,7 +32,7 @@ specifically targeting Windows machines
 ## Features
 - [x] Evasion functions
 - [x] Reconnaissance Functions
-- [x] Disruptive functions
+- [x] Exploitation functions
 - [x] Anti Sandbox functions
 - [x] Anti Memory Inspection functions
 - [x] Anti Debugging functions
@@ -46,6 +46,12 @@ specifically targeting Windows machines
 - CheckRoot (Checks if the current user is root)
 - GetUsers (Returns a list of users on the machine)
 - ListFiles (Returns a list of files to the provided path)
+- GetRegKeyData (Returns a list of registry values to the provided key)
+- GetFileData (Returns a list of file data to the provided path)
+- GetFileSize (Returns the size of the file)
+- MachineGuid (Returns the machine's GUID)
+- RegKeyData (Returns a list of registry values to the provided key)
+- GetWindowsVersion (Returns the current windows version as an integer)
 
 ### Exploitation
 - ForkBomb (Exponential growth of goroutines to deplete system resources)
@@ -53,6 +59,11 @@ specifically targeting Windows machines
 - Wipe (Wipes the filesystem of the provided path)
 - ClearLogs (Clears windows logs)
 - Shutdown (Shuts down the machine)
+- SluiBypass (Uac bypass using slui.exe)
+- ComputerDefaults (UAC bypass using computerdefaults.exe)
+- SdlctControl (UAC bypass using sdlct.exe)
+- FodHelper (UAC bypass using fodhelper.exe)
+- TryEscalate (Attempts to escalate privileges, returns true if successful)
 
 ### Persistence
 - [x] Persistence Functions (TODO)

@@ -17,12 +17,8 @@ func GetRegKeyData(key string) RegKeyData {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer func(k registry.Key) {
-		err := k.Close()
-		if err != nil {
-			log.Fatal(err)
-		}
-	}(k)
+
+	defer k.Close()
 
 	regStat, err := k.Stat()
 	if err != nil {

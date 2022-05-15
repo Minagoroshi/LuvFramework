@@ -15,13 +15,6 @@ func CmdOut(command string) (string, error) {
 	return string(output), nil
 }
 
-//The AllocMem function is used to allocate memory
-func AllocMem(size int) ([]byte, error) {
-	//Add a buffer to the size
-	size += 1024
-	return make([]byte, size), nil
-}
-
 //ArrayContains checks if an array contains a value
 func ArrayContains(value string, array []string) bool {
 	for _, v := range array {
