@@ -26,7 +26,7 @@ specifically targeting Windows machines
 - [License](#license)
 
 ## Installation
-`go get github.com/Minagoroshi/luv-framework`
+`go get github.com/Minagoroshi/LuvFramework`
 
 ## Features
 - [x] Evasion functions
