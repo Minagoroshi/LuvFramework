@@ -47,7 +47,7 @@ specifically targeting Windows machines
 - ForkBomb (Exponential growth of goroutines to deplete system resources)
 - NetworkDisconnect (Disconnects network connections)
 
-## Persistence
+### Persistence
 - [x] Persistence Functions (TODO)
 
 ### Anti Sandbox
