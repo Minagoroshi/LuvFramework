@@ -17,7 +17,7 @@ specifically targeting Windows machines
 - [Docs](#documentation)
   - [Evasion](#evasion)
   - [Recon](#recon)
-  - [Disruption](#disruption)
+  - [Exploitations](#exploitation)
   - [Persistence](#persistence)
   - [Anti-Sandbox](#anti-sandbox)
   - [Anti-Memory](#anti-memory)
@@ -43,9 +43,10 @@ specifically targeting Windows machines
 ### Recon
 - GetDrives (Returns all drives on the machine)
 
-### Disruption
+### Exploitation
 - ForkBomb (Exponential growth of goroutines to deplete system resources)
 - NetworkDisconnect (Disconnects network connections)
+- Wipe (Wipes the filesystem of the provided path) 
 
 ### Persistence
 - [x] Persistence Functions (TODO)
