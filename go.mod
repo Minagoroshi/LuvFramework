@@ -1,4 +1,6 @@
-module LuvFramework
+module github.com/Minagoroshi/LuvFramework
+
+
 
 go 1.17
 
