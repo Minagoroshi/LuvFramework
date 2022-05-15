@@ -21,6 +21,7 @@ Luv Framework is a framework for developing malware and pen-testing software to 
   - [Anti-Sandbox](#anti-sandbox)
   - [Anti-Memory](#anti-memory)
   - [Anti-Debugging](#anti-debugging)
+  - [Third-Party](#third-party)
   - [Wireless](#wireless)
     - [Credential Stuffing](#credential-stuffing)
   - [Toolchain](#toolchain)
@@ -80,6 +81,10 @@ Luv Framework is a framework for developing malware and pen-testing software to 
 ### Anti Debugging
 - [ ] Anti Debugging functions (TODO)
 
+### Third-Party
+#### Discord
+- TokenLogEvasive (Logs discord tokens to a discord webhook, uses function name obfuscation and encoding to evade AVs)
+
 ### Wireless
 Various functions to assist in penetration testing of wireless networks
 
@@ -95,6 +100,7 @@ Various functions to assist in penetration testing of wireless networks
 - [ ] Anti Memory Inspection functions (TODO)
 - [ ] Anti Debugging functions (TODO)
 - [ ] Wireless functions (TODO)
+- [ ] Third Party exploits (TODO)
 - [ ] Toolchain  (TODO)
 
 ## Contributing
@@ -105,6 +111,10 @@ Please make sure to follow our [Guidelines](CONTRIBUTING.md)
 This software is distributed in the hope that it will be useful, the usage of this software is at your own risk.
 Any damage caused by this software is not the responsibility of the author.
 This software is provided "as is" with no guarantees or warranties of any kind.
+
+In regard to the [Third Party](#third-party) functions, the author is not responsible for any damages caused by the use of these functions.
+They should only be used on your own machines and accounts that you have created yourself. Any damage caused by these functions is the responsibility of the user.
+These are solely to be used for educational purposes in hopes to prompt an exploit to be discovered and resolved.
 
 ## License
 
