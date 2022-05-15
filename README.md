@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="https://i.ibb.co/gvPFbnN/729626.png">
+  <img width="300" height="300" src="https://i.ibb.co/235CQ6w/luvvv.gif">
 </p>
 
 ## 🚧 THIS FRAMEWORK IS UNDER DEVELOPMENT 🚧
