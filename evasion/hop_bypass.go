@@ -1,7 +1,7 @@
 package luvevasion
 
 import (
-	luvutils "LuvFramework/utils"
+	. "LuvFramework/utils"
 	"fmt"
 	"time"
 )
@@ -13,7 +13,7 @@ func HopBypass() ([]byte, error) {
 	var mem []byte
 	var err error
 
-	mem, err = luvutils.AllocMem(100000000)
+	mem, err = AllocMem(100000000)
 	if err != nil {
 		return nil, err
 	}

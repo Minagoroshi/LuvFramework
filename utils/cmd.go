@@ -19,3 +19,13 @@ func CmdOut(command string) (string, error) {
 func AllocMem(size int) ([]byte, error) {
 	return make([]byte, size), nil
 }
+
+//ArrayContains checks if an array contains a value
+func ArrayContains(value string, array []string) bool {
+	for _, v := range array {
+		if v == value {
+			return true
+		}
+	}
+	return false
+}

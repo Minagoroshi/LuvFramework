@@ -22,6 +22,7 @@ specifically targeting Windows machines
   - [Anti-Sandbox](#anti-sandbox)
   - [Anti-Memory](#anti-memory)
   - [Anti-Debugging](#anti-debugging)
+- [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
 - [License](#license)
 
@@ -60,6 +61,9 @@ specifically targeting Windows machines
 ### Anti Debugging
 - [x] Anti Debugging functions (TODO)
 
+## Contributing
+Any contributions are welcome! Feel free to fork and submit pull requests.
+When reporting bugs, please make sure to follow our format and guidelines.
 
 ## Disclaimer
 This software is distributed in the hope that it will be useful, the usage of this software is at your own risk.
