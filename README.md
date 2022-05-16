@@ -22,8 +22,9 @@ Luv Framework is a framework for developing malware and pen-testing software to 
   - [Anti-Memory](#anti-memory)
   - [Anti-Debugging](#anti-debugging)
   - [Third-Party](#third-party)
+    - [Discord](#discord)
   - [Wireless](#wireless)
-    - [Credential Stuffing](#credential-stuffing)
+    - [Credential Stuffing Library](#credential-stuffing)
   - [Toolchain](#toolchain)
 - [Upcoming Features](#upcoming-features)
 - [Contributing](#contributing)
@@ -89,7 +90,22 @@ Luv Framework is a framework for developing malware and pen-testing software to 
 Various functions to assist in penetration testing of wireless networks
 
 #### Credential Stuffing
- - [ ] Worker (TODO)
+## Usage
+
+```go
+package main
+
+import "github.com/Minagoroshi/LuvFramework"
+
+func main() {
+w := luvcheckerlib.NewWorker()
+w.AddWork(checker)
+w.StartWorker()
+}
+
+func checker() {
+// Your Code Here
+}
 
 ## ToolChain
 - [ ] ToolChain (TODO)
