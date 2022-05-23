@@ -56,7 +56,7 @@ Luv Framework is a framework for developing malware and pen-testing software to 
 - GetFileSize (Returns the size of the file)
 - MachineGuid (Returns the machine's GUID)
 - RegKeyData (Returns a list of registry values to the provided key)
-- GetWindowsVersion (Returns the current windows version as an integer)
+- GetWindowsVersion (Returns the current Windows version as an integer)
 
 ### Exploitation
 - ForkBomb (Exponential growth of goroutines to deplete system resources)

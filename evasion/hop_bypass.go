@@ -8,7 +8,7 @@ import (
 
 var i int64 = 0
 
-//The HopBypass Evasion function bypasses anti-virus software by allocating fake memory and hopping between multiple memory locations using function calls.
+//The HopBypass Evasion function bypasses antivirus software by allocating fake memory and hopping between multiple memory locations using function calls.
 func HopBypass() ([]byte, error) {
 	var mem []byte
 	var err error
@@ -20,6 +20,10 @@ func HopBypass() ([]byte, error) {
 	keepMem(mem, 10)
 	hop()
 	return mem, nil
+}
+
+func pretty() {
+	//Make something look pretty
 }
 
 func keepMem(mem []byte, duration int) {

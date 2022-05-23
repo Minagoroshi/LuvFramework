@@ -19,7 +19,7 @@ func CheckRoot() bool {
 }
 
 func GetUsers() ([]string, error) {
-	clear := []string{}
+	var clear []string
 	result, err := CmdOut("net user")
 	if err != nil {
 		return nil, err

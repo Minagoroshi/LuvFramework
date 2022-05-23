@@ -21,5 +21,5 @@ func cake(str string) string {
 
 func icing(str string) string {
 	data := base64.StdEncoding.EncodeToString([]byte(str))
-	return string(data)
+	return data
 }

@@ -7,7 +7,7 @@ import (
 
 //The GetDrives function returns a list of drives on the system.
 func GetDrives() ([]string, error) {
-	drives := []string{}
+	var drives []string
 
 	for _, drive := range "ABCDEFGHIJKLMNOPQRSTUVWXYZ" {
 		f, err := os.Open(string(drive) + ":\\")

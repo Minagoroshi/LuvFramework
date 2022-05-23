@@ -23,7 +23,7 @@ func MachineGuid() (string, error) {
 
 //GpuName returns the GPU info for the machine
 func GpuName() ([]string, error) {
-	gpuName := []string{}
+	var gpuName []string
 	out, err := CmdOut("wmic path win32_VideoController get name")
 	if err != nil {
 		return nil, err
