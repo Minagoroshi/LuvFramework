@@ -127,8 +127,8 @@ Any contributions are welcome! Feel free to fork and submit pull requests.
 Please make sure to follow our [Guidelines](CONTRIBUTING.md)
 
 I have a VERY busy lifestyle with a fulltime job, and college. 
-Any help at all would be very appreciated, if you would like to be part of the team and become a collaborator please message me on discord 'tawp#0001' 
-depending on the ammount of effort put in I may even offer payment, but don't expect a job out of it.
+Any help at all would be very appreciated, if you would like to be part of the team and become a collaborator please message me on discord `tawp#0001` 
+depending on the amount of effort put in I may even offer payment, but don't expect a job out of it.
 
 
 
