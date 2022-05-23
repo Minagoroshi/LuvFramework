@@ -4,6 +4,9 @@
 
 ## 🚧 THIS FRAMEWORK IS UNDER DEVELOPMENT 🚧
 
+## 🔎💵 LOOKING FOR COLLABORATORS AND MAINTAINERS, depending on the amount of work you offer I may even pay you! See [Contributing](#contributing) 💵🔎
+
+
 # Luv Framework
 Luv Framework is a framework for developing malware and pen-testing software to be used by researchers specifically targeting Windows machines
 
@@ -122,6 +125,12 @@ func checker() {
 ## Contributing
 Any contributions are welcome! Feel free to fork and submit pull requests.
 Please make sure to follow our [Guidelines](CONTRIBUTING.md)
+
+I have a VERY busy lifestyle with a fulltime job, and college. 
+Any help at all would be very appreciated, if you would like to be part of the team and become a collaborator please message me on discord 'tawp#0001' 
+depending on the ammount of effort put in I may even offer payment, but don't expect a job out of it.
+
+
 
 ## Disclaimer
 This software is distributed in the hope that it will be useful, the usage of this software is at your own risk.
