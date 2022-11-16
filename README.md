@@ -2,11 +2,6 @@
   <img width="400" height="400" src="https://i.ibb.co/Hx1YH7h/optimizedluv.gif">
 </p>
 
-## 🚧 THIS FRAMEWORK IS UNDER DEVELOPMENT 🚧
-
-## 🔎💵 LOOKING FOR COLLABORATORS AND MAINTAINERS, depending on the amount of work you offer I may even pay you! See [Contributing](#contributing) 💵🔎
-
-
 # Luv Framework
 Luv Framework is a framework for developing malware and pen-testing software to be used by researchers specifically targeting Windows machines
 
